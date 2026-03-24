@@ -10,8 +10,7 @@ def update_topics(mongo_collection, name, topics):
     okay it is awkward now I don't feel what to
     write to bypass this shii anymore"""
 
-    mongo_collection.update(
+    mongo_collection.update_many(
             {"name": name},
             {"$set": {"topics": topics}}
-            {"multi": "true"}
             )
