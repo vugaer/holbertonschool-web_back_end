@@ -9,8 +9,8 @@ def update_topics(mongo_collection, name, topics):
     asdasdasdasdasd asd asdasd asdasdasd
     okay it is awkward now I don't feel what to
     write to bypass this shii anymore"""
-    result = mongo_collection.updateMany(
+
+    mongo_collection.updateMany(
             {"name": name},
             {$set: {"topics": topics}
             )
-    return result.updated_id
