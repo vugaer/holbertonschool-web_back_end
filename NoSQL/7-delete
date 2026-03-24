@@ -1,0 +1,2 @@
+// asdasdadaasd
+db.school.delete({'name': 'Holberton school'})
