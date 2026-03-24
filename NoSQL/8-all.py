@@ -4,4 +4,6 @@
 the checker to have me writing all this"""
 
 def list_all(mongo_collection):
+    """asdasdadadadasdadasdasdasdasd
+    asdasdadasdadadasdasdasdasdasda"""
     return list(mongo_collection.find())
