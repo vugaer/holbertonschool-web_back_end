@@ -1,0 +1,2 @@
+// lets go mongols
+db.school.insert({'name': 'Holberton school'})
